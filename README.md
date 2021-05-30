@@ -1,6 +1,6 @@
 # Facebook Clone Project
 
-A webpage mimicing some of the Facebook functionalities.
+A webpage showing some of the Facebook functionalities.
 
 
 
