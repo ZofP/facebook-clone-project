@@ -25,7 +25,7 @@ const Login = () => {
       .catch((error) => alert(error.message));
   };
 
-  const anynymousLogin = () => {
+  const anonymousLogin = () => {
     dispatch({
       type: actionTypes.SET_USER,
       payload: {
@@ -62,14 +62,14 @@ const Login = () => {
         <Button className="login__SignIn" type="submit" onClick={signIn}>
           Sign In with Google
         </Button>
-        <Button type="submit" onClick={anynymousLogin}>
+        <Button type="submit" onClick={anonymousLogin}>
           Enter as Anonymous User
         </Button>
       </div>
       <h3>
         <i>
-          This project was created with Firebase API. All trademarks rights
-          belong to Facebook company.
+          This project utilizes Firebase. All trademarks, logos and brand names
+          are the property of their respective owners.
         </i>
       </h3>
     </div>
